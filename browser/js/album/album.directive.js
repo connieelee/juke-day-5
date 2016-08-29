@@ -6,7 +6,7 @@ juke.directive('albumList', function() {
 		restrict: 'E',
 		templateUrl: 'js/album/templates/albumList.html',
 		scope: {
-			albums: '='
+			albums: '=' // @ seems to work as well! hm!
 		}
 	}
 });

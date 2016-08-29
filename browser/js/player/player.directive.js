@@ -20,7 +20,6 @@ juke.directive('player', function(PlayerFactory) {
             scope.handleProgressClick = function(evt) {
                 PlayerFactory.seek(evt.offsetX / evt.currentTarget.scrollWidth);
             };
-
         }
     }
 });
